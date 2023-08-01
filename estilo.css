@@ -1,0 +1,81 @@
+body {
+    background: rgb(27, 107, 47);
+    font: normal 15pt Arial;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 10px 5px 15px rgb(0, 0, 0);;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: rgb(28, 212, 43);
+    border-radius: 10px;
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+#ad {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(27, 107, 47);
+    color: white;
+}
+
+#ad:hover {
+    background-color: rgb(28, 212, 43)
+}
+
+#fin {
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(27, 107, 47);
+    color: white;
+}
+
+#fin:hover {
+    background-color: rgb(28, 212, 43)
+}
+
+#fnum {
+    font-size: 15pt;
+    border-radius: 5px;
+    text-align: right;
+}
+
+#flista {
+    width: 500px;
+    text-align: center;
+    border-radius: 5pt;
+    font-size: 20px;
+    border-width: 3px;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+}
+
+option {
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+* {
+    box-sizing: border-box;
+}
